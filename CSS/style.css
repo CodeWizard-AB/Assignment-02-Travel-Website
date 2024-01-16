@@ -314,12 +314,14 @@ main section {
 .deal_container__figures___content {
 	position: absolute;
 	width: 50%;
-	background: rgba(255, 255, 255, 0.868);
 	top: 50%;
 	right: 56px;
 	transform: translateY(-50%);
 	border-radius: 1.6rem;
 	padding: 4rem 5rem;
+	border: 2px solid #fff;
+	background: rgba(255, 255, 255, 0.8);
+	backdrop-filter: blur(2.5px);
 }
 
 .figure-left {
@@ -407,7 +409,7 @@ main section {
 
 footer {
 	background: rgba(19, 19, 24, 0.05);
-	padding: 12rem 3.2rem;
+	padding: 12rem 3.2rem 8rem;
 }
 
 .footer_container {
