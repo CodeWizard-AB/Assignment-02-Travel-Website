@@ -7,7 +7,7 @@
 }
 
 .nav_container figure img {
-	max-width: 4.8rem; 
+	max-width: 4.8rem;
 	margin-right: 1rem;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .nav_container_menu-btn {
-  display: none;
+	display: none;
 }
 
 /* ? BANNER SECTION */
@@ -60,20 +60,20 @@
 
 .nav_container__form {
 	margin-top: 5rem;
+	max-width: 90rem;
 	background: #ffffff2b;
 	backdrop-filter: blur(2px);
 	padding: 1.5rem;
 	border-radius: 0.8rem;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	align-items: stretch;
-	gap: 2rem;
+	gap: 2.4rem;
 }
 
 .nav_container__form label {
 	background-color: #ffffff;
 	border-radius: 0.8rem;
-  padding: 1.6rem 1.5rem;
+	padding: 1.6rem 1.5rem;
 }
 
 .nav_container__form input {
@@ -84,19 +84,26 @@
 	border: none;
 	outline: none;
 	background: none;
-  letter-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+.nav_container__form input::placeholder {
+	color: #13131880;
 }
 
 .nav_container__form label ion-icon {
 	width: 2.5rem;
 	height: 2.5rem;
-	color: grey;
+	color: #13131880;
 }
 
 .btn ion-icon {
-  width: 2.5rem;
-  height: 2.5rem;
+	width: 2.5rem;
+	height: 2.5rem;
 }
 
 /* * MAIN COMPONENTS */
+
+
+
 /* * FOOTER COMPONENTS */

@@ -26,6 +26,7 @@
 
 	.nav_container__form {
 		grid-template-columns: 1fr;
+		gap: 2rem;
 	}
 
 	.nav_container__form .btn {
@@ -33,12 +34,12 @@
 		gap: 2rem;
 	}
 
-  .nav_container__form label {
-    padding: 2.5rem;
-  }
+	.nav_container__form label {
+		padding: 2.5rem;
+	}
 
-  .nav_container__form input {
-    font-size: 2rem;
-  }
-
+	.nav_container__form input,
+	.nav_container__form button {
+		font-size: 2rem;
+	}
 }
