@@ -241,6 +241,64 @@ main section {
 	transform: translate(-50%, -50%);
 }
 
+/* ? DEAL & DISCOUNT SECTION */
+
+.deal_container__figures > figure {
+	margin-bottom: 2rem;
+	position: relative;
+	display: flex;
+	min-height: 50rem;
+}
+
+.deal_container__figures figure img:first-child {
+	object-fit: cover;
+}
+
+.deal_container__figures___content-icons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	margin-bottom: 1rem;
+	gap: 1rem;
+}
+
+.deal_container__figures___content-icons > figure {
+	display: flex;
+	align-items: center;
+}
+
+.deal_container__figures___content-icons figure img {
+	width: auto;
+	margin-right: 1rem;
+}
+
+.deal_container__figures___content {
+	position: absolute;
+	width: 50%;
+	background: rgba(255, 255, 255, 0.868);
+	top: 50%;
+	right: 56px;
+	transform: translateY(-50%);
+	border-radius: 1.6rem;
+	padding: 4rem 5rem;
+}
+
+.figure-left {
+	left: 56px;
+}
+
+.deal_container__figures___content h3 {
+	font-size: 2.4rem;
+	margin-bottom: 1rem;
+}
+
+.deal_container__figures___content .highlight-price {
+	color: var(--BTN-COLOR);
+	font-weight: 800;
+	font-size: 2rem;
+	margin: 1rem 0 2.5rem;
+}
+
 /* ? NEWSLETTER SECTION */
 
 .newsletter_container {
