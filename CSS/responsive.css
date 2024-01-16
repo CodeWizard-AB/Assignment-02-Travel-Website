@@ -7,6 +7,14 @@
 		margin: 5rem 0;
 	}
 
+	.content--heading {
+		font-size: 2.5rem;
+	}
+
+	.content--summary {
+		font-size: 1.8rem;
+	}
+
 	.nav_container_menu-btn {
 		display: block;
 	}
@@ -20,7 +28,7 @@
 	}
 
 	.banner_container {
-		padding: 4rem 2.4rem;
+		padding: 4rem 3rem;
 		width: 100%;
 	}
 
@@ -58,7 +66,7 @@
 	}
 
 	.countries_container__figures figure img{
-		max-height: 20rem;
+		max-height: 22rem;
 		object-fit: cover;
 		border-radius: 1.6rem;
 	}
