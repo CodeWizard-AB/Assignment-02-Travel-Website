@@ -86,8 +86,9 @@
 		max-width: 4.8rem;
 	}
 
-	.deal_container__figures > figure {
+	.deal_container__figures > figure > img {
 		height: 60rem;
+		border-radius: 1.6rem;
 	}	
 
 	.deal_container__figures___content {
