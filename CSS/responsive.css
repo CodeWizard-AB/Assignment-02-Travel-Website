@@ -50,9 +50,8 @@
 		padding: 2.5rem;
 	}
 
-	.nav_container__form input,
-	.nav_container__form button {
-		font-size: 2rem;
+	.nav_container__form input {
+		font-size: 1.8rem;
 	}
 
 	.tour_container {
@@ -65,9 +64,27 @@
 		gap: 1.6rem 0;
 	}
 
-	.countries_container__figures figure img{
+	.countries_container__figures figure img {
 		max-height: 22rem;
 		object-fit: cover;
 		border-radius: 1.6rem;
+	}
+
+	.choose_container__cards {
+		display: flex;
+		flex-direction: column;
+		gap: 1.6rem;
+	}
+
+	.choose_container__cards___card img {
+		max-width: 4.8rem;
+	}
+
+	.newsletter_container {
+		flex-direction: column;
+	}
+
+	.newsletter_container__content {
+		width: 100%;
 	}
 }

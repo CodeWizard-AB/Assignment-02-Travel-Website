@@ -83,9 +83,6 @@
 	font-weight: 500;
 	text-transform: capitalize;
 	width: 100%;
-	border: none;
-	outline: none;
-	background: none;
 	letter-spacing: 1px;
 }
 
@@ -102,6 +99,11 @@
 .btn ion-icon {
 	width: 2.5rem;
 	height: 2.5rem;
+}
+
+.nav_container__form .btn {
+	font-size: 1.8rem;
+	align-items: center;
 }
 
 /* * MAIN COMPONENTS */
@@ -123,11 +125,10 @@ main section {
 }
 
 .tour_container__content ul {
-	list-style: inside;
 	display: flex;
 	flex-direction: column;
 	gap: 1.6rem;
-	margin: 2.4rem 0;
+	margin: 2.4rem 1.8rem;
 }
 
 .tour_container__content button {
@@ -167,4 +168,90 @@ main section {
 	grid-column: span 7;
 }
 
+/* ? WHY CHOOSE SECTION */
+
+.choose_container__cards {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2.4rem;
+}
+
+.choose_container__cards___card {
+	padding: 3.2rem;
+	max-width: 58rem;
+	border-radius: 1.6rem;
+}
+
+.choose_container__cards___card img {
+	max-width: 6.4rem;
+}
+
+.choose_container__cards___card h3 {
+	font-size: 2.6rem;
+	font-weight: 800;
+	margin: 3.2rem 0 1.6rem;
+}
+
+.choose_container__cards .choose_container__cards___card:nth-child(1) {
+	background: #fbb5630d;
+	border: 1px solid #fbb56333;
+}
+
+.choose_container__cards .choose_container__cards___card:nth-child(2) {
+	background: #29cef60d;
+	border: 1px solid #29cef633;
+}
+
+.choose_container__cards .choose_container__cards___card:nth-child(3) {
+	grid-column: span 2;
+	justify-self: center;
+	background: #e944440d;
+	border: 1px solid #e9444433;
+}
+
+/* ? NEWSLETTER SECTION */
+
+.newsletter_container {
+	gap: 3rem;
+}
+
+.newsletter_container__content {
+	padding: 4rem;
+	border: 2px solid var(--BTN-COLOR);
+	border-radius: 1.6rem;
+	width: 65%;
+}
+
+.newsletter_container__content h3 {
+	font-size: 2.4rem;
+	font-weight: 800;
+	margin-bottom: 1.6rem;
+}
+
+.newsletter_container__content__form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	border-top: 1px solid #1313181a;
+	padding-top: 2.4rem;
+	margin-top: 2rem;
+}
+
+.newsletter_container__content__form input {
+	font-size: 1.6rem;
+	background: #1313180d;
+	padding: 1.6rem 2rem;
+	letter-spacing: 0.5px;
+	border-radius: 0.8rem;
+}
+
+.newsletter_container__content__form input::placeholder {
+	color: #1313184d;
+}
+
+.newsletter_container figure {
+	width: 100%;
+}
+
 /* * FOOTER COMPONENTS */
+
