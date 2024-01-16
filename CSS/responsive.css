@@ -87,4 +87,8 @@
 	.newsletter_container__content {
 		width: 100%;
 	}
+
+	footer {
+		padding: 5rem;
+	}
 }
