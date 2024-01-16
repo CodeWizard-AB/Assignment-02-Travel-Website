@@ -3,6 +3,10 @@
 		font-size: 50.25%;
 	}
 
+	main section {
+		margin: 5rem 0;
+	}
+
 	.nav_container_menu-btn {
 		display: block;
 	}
@@ -41,5 +45,21 @@
 	.nav_container__form input,
 	.nav_container__form button {
 		font-size: 2rem;
+	}
+
+	.tour_container {
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.countries_container__figures {
+		grid-template-columns: 1fr;
+		gap: 1.6rem 0;
+	}
+
+	.countries_container__figures figure img{
+		max-height: 20rem;
+		object-fit: cover;
+		border-radius: 1.6rem;
 	}
 }

@@ -4,6 +4,7 @@
 
 .nav_container {
 	padding: 5rem 3.3rem;
+	align-items: center;
 }
 
 .nav_container figure img {
@@ -19,6 +20,7 @@
 }
 
 .nav_container__links li {
+	color: #424247;
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
 }
@@ -104,6 +106,65 @@
 
 /* * MAIN COMPONENTS */
 
+main section {
+	margin: 10rem 0;
+}
 
+/* ? TOUR SECTION */
+
+.tour_container__content {
+	max-width: 57rem;
+	font-size: 1.8rem;
+	padding-right: 2.5rem;
+}
+
+.tour_container__content .content--summary {
+	letter-spacing: 0.3px;
+}
+
+.tour_container__content ul {
+	list-style: inside;
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+	margin: 2.4rem 0;
+}
+
+.tour_container__content button {
+	margin-top: 3rem;
+}
+
+/* ? COUNTRIES SECTION */
+
+.countries_container__figures {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 2.4rem;
+}
+
+.countries_container__figures figure:nth-child(1),
+.countries_container__figures figure:nth-child(2) {
+	grid-column: span 6;
+}
+
+.countries_container__figures figure:nth-child(3) {
+	grid-column: span 4;
+}
+
+.countries_container__figures figure:nth-child(4) {
+	grid-column: span 5;
+}
+
+.countries_container__figures figure:nth-child(5) {
+	grid-column: span 3;
+}
+
+.countries_container__figures figure:nth-child(6) {
+	grid-column: span 5;
+}
+
+.countries_container__figures figure:nth-child(7) {
+	grid-column: span 7;
+}
 
 /* * FOOTER COMPONENTS */

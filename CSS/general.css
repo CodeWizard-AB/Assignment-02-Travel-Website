@@ -50,14 +50,13 @@ button {
 .container--flex {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .content--summary {
 	font-size: 1.6rem;
 	line-height: 1.8;
 	letter-spacing: 1px;
-	font-weight: 400;
+	font-weight: 400;	
 }
 
 .content--heading {
@@ -76,4 +75,10 @@ button {
 
 .highlight {
 	color: var(--BTN-COLOR);
+}
+
+.section--heading {
+	max-width: 65rem;
+	margin: 0 auto 4.8rem;
+	text-align: center;
 }
