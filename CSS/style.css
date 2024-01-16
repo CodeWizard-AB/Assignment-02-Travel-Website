@@ -3,12 +3,11 @@
 /* ? NAVIGAION SECTION */
 
 .nav_container {
-	padding: 3.2rem;
-	margin-bottom: 5rem;
+	padding: 5rem 3.3rem;
 }
 
 .nav_container figure img {
-	max-width: 4.8rem;
+	max-width: 4.8rem; 
 	margin-right: 1rem;
 }
 
@@ -26,6 +25,10 @@
 
 .nav_container__links li:hover {
 	color: var(--BTN-COLOR);
+}
+
+.nav_container_menu-btn {
+  display: none;
 }
 
 /* ? BANNER SECTION */
@@ -69,8 +72,8 @@
 
 .nav_container__form label {
 	background-color: #ffffff;
-	padding: 1.6rem 1.5rem;
 	border-radius: 0.8rem;
+  padding: 1.6rem 1.5rem;
 }
 
 .nav_container__form input {
@@ -81,16 +84,18 @@
 	border: none;
 	outline: none;
 	background: none;
-}
-
-.nav_container__form input::placeholder {
-	font-size: 1.5rem;
+  letter-spacing: 1px;
 }
 
 .nav_container__form label ion-icon {
 	width: 2.5rem;
 	height: 2.5rem;
 	color: grey;
+}
+
+.btn ion-icon {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /* * MAIN COMPONENTS */

@@ -1,0 +1,44 @@
+@media screen and (max-width: 576px) {
+	html {
+		font-size: 50.25%;
+	}
+
+	.nav_container_menu-btn {
+		display: block;
+	}
+
+	.nav_container__links {
+		display: none;
+	}
+
+	.brand--logo {
+		font-size: 3rem;
+	}
+
+	.banner_container {
+		padding: 4rem 2.4rem;
+		width: 100%;
+	}
+
+	.banner_container__content h1 {
+		font-size: 3rem;
+	}
+
+	.nav_container__form {
+		grid-template-columns: 1fr;
+	}
+
+	.nav_container__form .btn {
+		justify-content: center;
+		gap: 2rem;
+	}
+
+  .nav_container__form label {
+    padding: 2.5rem;
+  }
+
+  .nav_container__form input {
+    font-size: 2rem;
+  }
+
+}

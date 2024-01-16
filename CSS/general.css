@@ -20,20 +20,25 @@ img {
 	width: 100%;
 }
 
+button {
+	background: none;
+	outline: none;
+	border: none;
+}
+
 /* * COMMON STYLES */
 
 .btn {
 	font-size: 1.8rem;
-  font-weight: 700;
+	font-weight: 700;
 	background: var(--BTN-COLOR);
 	border: none;
 	cursor: pointer;
 	text-transform: capitalize;
-  color: #ffffff;
-  padding: 1.6rem 3.2rem;
-  border-radius: 0.8rem;
-  gap: 1rem;
-  letter-spacing: 1px;
+	color: #ffffff;
+	padding: 1.6rem 3rem;
+	border-radius: 0.8rem;
+	letter-spacing: 1px;
 }
 
 .container {
