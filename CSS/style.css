@@ -7,7 +7,8 @@
 	align-items: center;
 }
 
-.nav_container figure img {
+.nav_container figure img,
+.footer_container figure img {
 	max-width: 4.8rem;
 	margin-right: 1rem;
 }
@@ -22,7 +23,7 @@
 .nav_container__links li {
 	color: #424247;
 	cursor: pointer;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 .nav_container__links li:hover {
@@ -255,3 +256,32 @@ main section {
 
 /* * FOOTER COMPONENTS */
 
+footer {
+	background: rgba(19, 19, 24, 0.05);
+	padding: 12rem;
+}
+
+.footer_container {
+	text-align: center;
+	max-width: 77rem;
+	margin: 0rem auto;
+}
+
+.footer_container figure {
+	justify-content: center;
+}
+
+.footer_container .content--summary {
+	margin: 1.5rem 0 3.3rem;
+}
+
+.footer_container__links a {
+	color: inherit;
+	margin-right: 2rem;
+}
+
+.footer_container__links {
+	padding-bottom: 3rem;
+	border-bottom: 1px solid #1313181a;
+	margin-bottom: 4rem;
+}
